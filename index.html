@@ -10,7 +10,7 @@
 <body>
     <main>
         <div id="contenedor">
-            <div>
+            <div class="botonesDeContenedor">
                 <button id="botonGenerar">
                     Generar gatito
                     <span></span>
@@ -18,8 +18,13 @@
                     <span></span>
                     <span></span>
                 </button>
+                <select id="cantidadGatitos">
+                    <option value="unGatito" selected>Un gatito</option>
+                    <option value="cincoGatitos" >5 gatitos</option>
+                    <option value="MuchosGatitos">Muchos gatitos</option>
+                </select>
             </div>
-            <div id="imagenGatito"></div>
+            <div id="imagenesGatitos"></div>
         </div>
     </main>
     <script src="js/main.js"></script>
